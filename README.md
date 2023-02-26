@@ -1,2 +1,8 @@
 # CS305
-Security
+Artemis Finacial is a finance company that was looking for ways to improve security to protect important and private data. In project two, they wanted to add file verification to their system to ensure secure interactions between users. 
+I believe that I did a good job of genereating a checksum to secure connections between users. In addition, I believe that the generations of the local certificate was also done well. It is essential to code securely for the safety of the companys information and reputation. 
+The most challenging part of the project would have been picking the right algorithm for filke security. The AES-256 was my choice but then I was unsure if I should use the same algorithm for the checksum.
+To add layers of security, I did a checksum verification, a secure connection on the server, and a cipher algorithm. Using the dependency check to find vulnerabilties is a good way to find which vulnerabilities to mitigate.
+Running dependency checks to see if new vulnerababilites arise after refactoring code is a good way to check if you added more vulnerabilties after refactoring. In addition, using alerts and error codes for the console also helps to find vulnerabilities. 
+Dependency checks, securing https, creating certificates, and creating/deploying algorithms can all be used in future assignments in regards to security. Manually scanning code can also be super helpful in furture assignments
+I would show them the certificate generation, the use of dependency checks, the securing of the local host https, and the generation of the checksum. I believe I did all of these well and it would show off my ability to create secure applications. 
